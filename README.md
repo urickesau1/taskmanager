@@ -30,8 +30,8 @@ This was my first attempt at combining MySQL and PHP to create a simple "To-do l
 ## Built With
 
 * [CSS] - For styling purposes.
-* [MySQL](https://maven.apache.org/) - Database Management.
-* [PHP](https://rometools.github.io/rome/) - Used to generate the queries and event handlers.
+* [MySQL](https://www.mysql.com/)  - Database Management.
+* [PHP](https://www.php.net/) - Used to generate the queries and event handlers.
 
 ## Contributing
 

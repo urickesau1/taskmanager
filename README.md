@@ -12,7 +12,7 @@ This was my first attempt at combining MySQL and PHP to create a simple "To-do l
    <u><dt>Step Three</dt></u>
   <dd>- Click on this link: to access the "To-do list" project.</dd>
   <u><dt>Step Four</dt></u>
-  <dd>-Enter your desired task and task information:
+  <dd>-Enter your desired task and task information into the entry fields provided:
   	<li>Task Name</li>
   	<li>Task Description</li>
     <li>Due-date/Deadline</li>

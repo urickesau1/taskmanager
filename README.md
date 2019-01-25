@@ -38,7 +38,7 @@ This was my first attempt at combining MySQL and PHP to create a simple "To-do l
 Credit must be given to Codewithawa for their tutorial on CRUD with Mysql and PHP.
 ## Authors
 
-* **Urick Esau** - *Initial work* - [PurpleBooth](https://github.com/urickesau1)
+* **Urick Esau** - *Initial work* - [Urick Esau](https://github.com/urickesau1)
 
 
 ## License

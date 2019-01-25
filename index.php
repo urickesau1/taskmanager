@@ -56,7 +56,7 @@ if (isset($_GET['edit'])) {
         </div>
         <div class="input-group">
             <label>Due-date</label>
-            <input type="text"name="due_date" value="<?php echo $due_date; ?>">
+            <input type="date"name="due_date" value="<?php echo $due_date; ?>">
         </div>
         <div class="input-group">
             <!--Here I defined my buttons to respond according to whether a user wants to update or save a task-->

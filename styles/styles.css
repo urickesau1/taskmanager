@@ -1,5 +1,6 @@
 body {
     font-size: 20px;
+    background-color: powderblue;
 
 }
 
@@ -27,6 +28,8 @@ th, td {
     border: none;
     height: 30px;
     padding: 2px;
+    font-size: larger;
+    font-display: bold;
     /*! width: 0px; */
 }
 

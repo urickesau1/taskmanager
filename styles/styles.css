@@ -19,6 +19,10 @@ table {
     width: 85%;
 }
 
+thead {
+    border: 2px solid red;
+}
+
 tr {
     border-bottom: 1px solid red;
     /*! width: 0%; */

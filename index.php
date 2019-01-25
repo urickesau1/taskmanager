@@ -23,7 +23,7 @@ if (isset($_GET['edit'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Attempt100</title>
+    <title>Task Manager</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Acme|VT323" rel="stylesheet"> 
 </head>
@@ -40,7 +40,7 @@ if (isset($_GET['edit'])) {
     <?php endif?>
 
     <!--This is my Title/ Application name-->
-    <h1>Urick Esau's Task Manager v1.2.0(mxit)</h1>
+    <h1>Urick Esau's Task Manager v1.2.1</h1>
 
 
     <!-- This is the form for users to enter their details. The data is saved to the server.php page-->

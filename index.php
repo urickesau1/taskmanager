@@ -28,6 +28,8 @@ if (isset($_GET['edit'])) {
     <link href="https://fonts.googleapis.com/css?family=Acme|VT323" rel="stylesheet"> 
 </head>
 <body>
+
+    <!--This is where the user will recieve a message to state that an action has been performed or not. I used a div within an if statement to to contain the message and echoed a message which is stored on my server.php page -->
     <?php if(isset($_SESSION['msg'])): ?>
         <div class="msg">
             <?php 
@@ -37,8 +39,11 @@ if (isset($_GET['edit'])) {
         </div> 
     <?php endif?>
 
+    <!--This is my Title/ Application name-->
     <h1>Urick Esau's Task Manager v1.2.0(mxit)</h1>
 
+
+    <!-- This is the form for users to enter their details. The data is saved to the server.php page-->
     <form method="post" action="server.php">
     <input type="hidden" name="id" value="<?php echo $id; ?>">
         <div class="input-group">
@@ -54,6 +59,7 @@ if (isset($_GET['edit'])) {
             <input type="text"name="due_date" value="<?php echo $due_date; ?>">
         </div>
         <div class="input-group">
+            <!--Here I defined my buttons to respond according to whether a user wants to update or save a task-->
             <?php if ($edit_state == false): ?>
                 <button type="submit" name="save" class="btn">Save</button>
              <?php else:  ?>
@@ -61,10 +67,9 @@ if (isset($_GET['edit'])) {
             <?php endif ?>
         </div>
     </form>
+    <!--USER FORM ENDS HERE-->
 
-
-
-
+    <!--THIS IS THE TABLE WHICH DISPLAYS THE TASK INFORMATION ONCE IT HAS BEEN ENTERED AND SAVED-->
     <table>
         <thead>
             <tr>
@@ -75,6 +80,7 @@ if (isset($_GET['edit'])) {
             </tr>
         </thead>
         <tbody>
+        <!--THE DATA IS FETCHED AND DISPLAYED VIA THE FETCH ARRAY FUNCTION. I CALLED THE DATA FROM THEIR ASSIGNED FIELDS IN THE DATABASE TO THEIR CORRESPONDING POSITION IN THE USER TABLE-->
         <?php while($row = mysqli_fetch_array($results)) { ?>
             <tr>
                 <td><?php echo $row['taskname']; ?></td>

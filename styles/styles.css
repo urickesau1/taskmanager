@@ -32,6 +32,7 @@ tr {
     /*! width: 0%; */
 }
 
+/*The styling for the placeholders and data entered, task name, description, due date*/
 th, td {
     border: none;
     height: 30px;
@@ -83,6 +84,7 @@ form {
     border-radius: 5px;
 }
 
+/*This is the styling for the message displayed whenever an action has been successfully performed*/
 .msg {
     margin: 30px auto;
     padding: 10px;
@@ -95,6 +97,7 @@ form {
     
 }
 
+/*The styling for the user's "Edit" button*/
 .edit_btn {
     text-decoration: none;
     padding: 2px 5px;
@@ -103,6 +106,7 @@ form {
     border-radius: 3px;
 }
 
+/*The styling for the user's "Delete" button*/
 .dlt_btn {
     text-decoration: none;
     padding: 2px 5px;

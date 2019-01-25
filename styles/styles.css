@@ -1,9 +1,11 @@
+
+/*These are my base styles for the main content of my webpage*/
 body {
     font-size: 20px;
     background-color: powderblue;
 
 }
-
+/*The styling of my heading/title of my webpage*/
 h1 {
     text-align: center;
     text-decoration: underline;
@@ -11,18 +13,20 @@ h1 {
     color: crimson;
 }
 
+/*This contains the styles for the actual table containing the data the user inserts*/
 table {
     margin: 60px auto;
     border-collapse: collapse;
     text-align: left;
-
     width: 85%;
 }
 
+/*Here I styled the headings of the table containing the data*/
 thead {
-    border: 2px solid red;
+    border: 3px solid darkslateblue;
 }
 
+/*I gave the row a red colour to make it stand out more*/
 tr {
     border-bottom: 1px solid red;
     /*! width: 0%; */
@@ -35,6 +39,7 @@ th, td {
     font-size: larger;
     font-display: bold;
     /*! width: 0px; */
+    font-family: 'Acme', sans-serif;
 }
 
 tr:hover {
